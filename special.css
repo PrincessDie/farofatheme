@@ -186,7 +186,10 @@ element.style {
 .icon-arrow-down-blue, .icon-chat-admin {
     width: 15px;
     height: 15px;
-
+}
+.icon {		
+    width: 30px;		
+    height: 30px;
 }
 .arrow-down, .avi, .icon, .spinner, .thumb.large, .thumb.medium, .thumb.small {
     position: absolute;

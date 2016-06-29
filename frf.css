@@ -2,12 +2,10 @@
 @import url("https://rawgit.com/BotFarofa/farofatheme/master/rdjs.css");
 
 #room-bar .icon-room {
-    background: url(http://i.imgur.com/PRT97wY.png);
-    top: 7px;
-    left: 8px;
+    background: url(http://i.imgur.com/Xnbub7N.gif);
 .icon {
-    width: 31px;
-    height: 31px;
+    width: 30px;
+    height: 30px;
 }
 
 #playback-container {

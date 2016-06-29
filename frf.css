@@ -3,6 +3,9 @@
 
 #room-bar .icon-room {
     background: url(http://i.imgur.com/gJrkltK.png);
+    .icon {
+    width: 31px;
+    height: 31px;
 }
 
 #playback-container {

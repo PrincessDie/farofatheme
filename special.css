@@ -186,11 +186,6 @@ element.style {
 .icon-arrow-down-blue, .icon-chat-admin {
     width: 15px;
     height: 15px;
-}
-.icon {
-    width: 30px;
-    height: 30px;
-    background: url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a25fd4a1f0aaba5a4cd.png');
 
 }
 .arrow-down, .avi, .icon, .spinner, .thumb.large, .thumb.medium, .thumb.small {

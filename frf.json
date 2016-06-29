@@ -1,6 +1,6 @@
 {
 	"room": "Farofa Pop",
-	"css": "https://rawgit.com/BotFarofa/farofatheme/master/frf.css",
+	"css": "https://rawgit.com/BotFarofa/farofatheme/master/alter.css",
 	"rules": {
 	    "allowAutorespond": true,
 	    "allowAutowoot": true,

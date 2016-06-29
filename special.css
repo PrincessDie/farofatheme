@@ -183,7 +183,7 @@ element.style {
     background-position: 0 -350px;
 
 }
-.icon-arrow-down-blue, .icon-chat-admin, .icon-chat-bouncer, .icon-chat-cohost, .icon-chat-dj, .icon-chat-host, .icon-chat-manager, .icon-chat-silver-subscriber, .icon-chat-subscriber, .icon-check-blue, .icon-history-grabs, .icon-history-listeners, .icon-history-negative, .icon-menu-arrow, .icon-room-history-row, .icon-soundcloud-favorites, .icon-soundcloud-sets, .icon-soundcloud-tracks, .icon-time {
+.icon-arrow-down-blue, .icon-chat-admin {
     width: 15px;
     height: 15px;
 }

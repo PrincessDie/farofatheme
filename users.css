@@ -2521,7 +2521,7 @@
 
 #chat-messages .fromID-3798150 .badge-box i,
 #chat-messages .id-3798150 .badge-box i {
-    background-image: url(https://mitchdev.net/pdj/icons/3798150.gif);
+    background-image: url(http://i.imgur.com/YYvfXPB.gif);
     background-size: cover;
     width: 30px;
     height: 30px;
@@ -2553,25 +2553,5 @@
     left: 0;
     border: none;
     border-radius: 0;
-element.style {
-}
-.bdg.e.bdg-beachb-e01 {
-    background: url('https://mitchdev.net/pdj/icons/4774047.gif') no-repeat;
-    border-radius: 6px;
-}
-.bdg.e {
-    background-image: url('https://mitchdev.net/pdj/icons/4774047.gif');
-}
-.bdg-beachb-e01 {
-    background-position: -180px -30px;
-}
-.bdg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30px;
-    height: 30px;
-    background: url('https://cdn.plug.dj/_/static/images/sheets/badges_small.657f64a56ef35e24bc62d628fb8fbd2ceb316ccb.png');
-}
 
 }

@@ -169,22 +169,54 @@ display:none !important;
 } 
 #chat-messages .from.ambassador .icon.icon-chat-silver-subscriber, #chat-messages .from.ambassador .icon.icon-chat-subscriber, #chat-messages .from.ambassador.has-staff .icon.icon-chat-ambassador, #chat-messages .from.dj .icon.icon-chat-silver-subscriber, #chat-messages .from.dj .icon.icon-chat-subscriber, #chat-messages .from.staff .icon.icon-chat-silver-subscriber, #chat-messages .from.staff .icon.icon-chat-subscriber {
     margin-right: 1px;
+    
 }
 
+element.style {
+}
 #user-rollover .info .role i {
     position: relative;
     float: left;
     margin-top: 2px;
 }
-
 .icon-chat-admin {
     background-position: 0 -350px;
+    background-position-x: 0px;
+    background-position-y: -350px;
 }
 .icon-arrow-down-blue, .icon-chat-admin, .icon-chat-bouncer, .icon-chat-cohost, .icon-chat-dj, .icon-chat-host, .icon-chat-manager, .icon-chat-silver-subscriber, .icon-chat-subscriber, .icon-check-blue, .icon-history-grabs, .icon-history-listeners, .icon-history-negative, .icon-menu-arrow, .icon-room-history-row, .icon-soundcloud-favorites, .icon-soundcloud-sets, .icon-soundcloud-tracks, .icon-time {
     width: 15px;
     height: 15px;
 }
-    
+.icon {
+    width: 30px;
+    height: 30px;
+    background: url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a25fd4a1f0aaba5a4cd.png');
+    background-image: url("https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a25fd4a1f0aaba5a4cd.png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.arrow-down, .avi, .icon, .spinner, .thumb.large, .thumb.medium, .thumb.small {
+    position: absolute;
+}
+*, .jspArrow {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 
 */

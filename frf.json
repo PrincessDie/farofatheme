@@ -17,7 +17,7 @@
 	    "cohost": "#ac76ff",
 	    "rdj": "#ac76ff",
 	    "host": "#ac76ff",
-	    "manager": "#ac76ff",
+	    "manager": null,
 	    "admin": null,
 	    "subscriber": null,
 	    "friend": null,

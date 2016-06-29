@@ -2553,41 +2553,5 @@
     left: 0;
     border: none;
     border-radius: 0;
-    "images": {
-        "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
-}
 
-/* Devs */
-[data-cid^="4249648-"] span.un.clickable,
-[data-cid^="6-"] span.un.clickable {
-color: #c59840 !important;
-}
-[data-cid^="3602201-"] span.un.clickable,
-[data-cid^="4789330-"] span.un.clickable,
-[data-cid^="2-"] span.un.clickable {
-color: #42a5dc !important;
-}
-
-/* LiteBot */
-#chat [data-cid^="3454266-"] span.un.clickable {
-color: rgb(210, 90, 195) !important;
-}
-#chat [data-cid^="3454266-"] i.bdg {
-background: url('https://cdn.radiant.dj/rcs/radiant_logo_small.png') !important;
-}
-#chat [data-cid^="3454266-"] .icon {
-display:none !important;
-}
-#chat .msg .text .id-3454266, #chat .msg .text .name.id-3454266, #chat .msg .text .name.id-3454266 .name {
-color: rgb(210, 90, 195) !important;
-}
-#chat [data-cid^="3454266-"].emote {
-    background: rgba(151, 67, 147, 0.35) !important;
-}
-#chat [data-cid^="3454266-"].emote .timestamp {
-    color: #A993C7 !important;
-}
-
-#chat [data-cid^="3454266-"].emote .text {
-    color: #DDC7FF !important;
 }

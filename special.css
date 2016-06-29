@@ -170,44 +170,8 @@ display:none !important;
 #chat-messages .from.ambassador .icon.icon-chat-silver-subscriber, #chat-messages .from.ambassador .icon.icon-chat-subscriber, #chat-messages .from.ambassador.has-staff .icon.icon-chat-ambassador, #chat-messages .from.dj .icon.icon-chat-silver-subscriber, #chat-messages .from.dj .icon.icon-chat-subscriber, #chat-messages .from.staff .icon.icon-chat-silver-subscriber, #chat-messages .from.staff .icon.icon-chat-subscriber {
     margin-right: 1px;
     
-}
+} */
 
-element.style {
-}
-#user-rollover .info .role i {
-    position: relative;
-    float: left;
-    margin-top: 2px;
-}
-.icon-chat-admin {
-    background-position: 0 -350px;
-
-}
-.icon-arrow-down-blue, .icon-chat-admin {
-    width: 15px;
-    height: 15px;
-}
-.icon {		
-    width: 15px;		
-    height: 15px;
-}
-.arrow-down, .avi, .icon, .spinner, .thumb.large, .thumb.medium, .thumb.small {
-    position: absolute;
-}
-.jspArrow {
-    margin: 0;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding: 0;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-
-*/
 #user-rollover.id-4249648 .username,
 #user-rollover.id-6 .username {
     color: #42a5dc !important;

@@ -9,7 +9,7 @@ color: #42a5dc !important;
 color: #c59840 !important;
 }
 
-/* LiteBot */
+/* FarofaBot */
 #chat [data-cid^="3454266-"] span.un.clickable {
 color: rgb(210, 90, 195) !important;
 }
@@ -44,7 +44,7 @@ color: #42a5dc !important;
 }
 
 
-/* LiteBot */
+/* FarofaBot */
 .id-3454266 span.un.clickable, #user-lists .list.room .id-3454266 .name, #user-lists .list.room .is-ambassador.id-3454266 .name, #user-lists .list.room .is-staff.id-3454266 .name, #user-lists .list.room .is-dj.id-3454266 .name, #user-lists .list.room .is-subscriber.id-3454266 .name, #user-lists .list.room [class*='role'].id-3454266 .name {
 color: #d25ac3 !important;
 }
@@ -52,7 +52,7 @@ color: #d25ac3 !important;
 display:none !important;
 }
 
-/* LITEBOT RELATED CSS */
+/* FAROFABOT RELATED CSS */
 [data-cid^="3454266-"] .msg .from .icon-chat-subscriber, #user-lists .list.room .id-3454266 .icon-chat-subscriber {
     background: url("https://cdn.radiant.dj/rcs/icons/radiant/litebot_subscriber.png") !important;
 }
@@ -84,7 +84,7 @@ display:none !important;
 }
 
 
-/* XBYTEZ RELATED CSS 
+/* XB RELATED CSS 
 [data-cid^="3602201-"] .msg .from .icon-chat-subscriber, #user-lists .list.room .id-3602201 .icon-chat-subscriber,
 [data-cid^="4789330-"] .msg .from .icon-chat-subscriber, #user-lists .list.room .id-4789330 .icon-chat-subscriber,
 [data-cid^="2-"] .msg .from .icon-chat-subscriber, #user-lists .list.room .id-2 .icon-chat-subscriber {
@@ -138,7 +138,7 @@ display:none !important;
 }
 
 
-/* ORIGIN RELATED CSS */
+/* FU RELATED CSS */
 [data-cid^="4249648-"] .msg .from .icon-chat-subscriber, #user-lists .list.room .id-4249648 .icon-chat-subscriber,
 [data-cid^="6-"] .msg .from .icon-chat-subscriber, #user-lists .list.room .id-6 .icon-chat-subscriber {
     background: url("https://cdn.radiant.dj/rcs/icons/radiant/origin_subscriber.png") !important;

@@ -1,10 +1,10 @@
 /* Devs */
-[data-cid^="4249648-"] span.un.clickable,
+[data-cid^="0000000-"] span.un.clickable,
 [data-cid^="6-"] span.un.clickable {
 color: #c59840 !important;
 }
-[data-cid^="3602201-"] span.un.clickable,
-[data-cid^="4789330-"] span.un.clickable,
+[data-cid^="4249648-"] span.un.clickable,
+[data-cid^="0000000-"] span.un.clickable,
 [data-cid^="2-"] span.un.clickable {
 color: #42a5dc !important;
 }

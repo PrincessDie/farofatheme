@@ -538,3 +538,254 @@ body {
         -o-box-shadow:          inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
         box-shadow:             inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;  
 }
+
+/* Editing Media Dialog Box [Playlist] */
+#dialog-media-update,
+#dialog-playlist-rename, 
+#dialog-playlist-delete,
+#dialog-playlist-create,
+#dialog-delete
+{
+        background:             rgb(3, 0, 7) !important;
+}
+
+#dialog-media-update .dialog-body, 
+#dialog-playlist-rename .dialog-body, 
+#dialog-playlist-delete .dialog-body,
+#dialog-playlist-create .dialog-body,
+#dialog-delete .dialog-body
+{
+        background:             rgba(49, 49, 49, 1) !important;
+}
+
+#dialog-media-update,
+#dialog-playlist-rename, 
+#dialog-playlist-delete,
+#dialog-playlist-create,
+#dialog-delete
+{
+        opacity:                .85;
+}
+
+#dialog-media-update > .dialog-body,
+#dialog-media-update > .dialog-frame,
+#dialog-playlist-rename > .dialog-body,
+#dialog-playlist-rename > .dialog-frame,
+#dialog-playlist-delete > .dialog-body,
+#dialog-playlist-delete > .dialog-frame,
+#dialog-playlist-create > .dialog-body,
+#dialog-playlist-create > .dialog-frame,
+#dialog-delete > .dialog-body,
+#dialog-delete > .dialog-frame
+{
+        opacity:                .85;
+}
+
+#dialog-media-update .dialog-frame .button,
+#dialog-playlist-rename .dialog-frame .button,
+#dialog-playlist-delete .dialog-frame .button,
+#dialog-playlist-create .dialog-frame .button,
+#dialog-delete .dialog-frame .button
+{
+        background:             rgba(0, 0, 0, 1) !important;
+        color:                  rgba(128, 134, 145, 1) !important;
+}
+
+#dialog-media-update .dialog-frame .cancel,
+#dialog-media-update .dialog-frame .submit,
+#dialog-playlist-rename .dialog-frame .cancel,
+#dialog-playlist-rename .dialog-frame .submit,
+#dialog-playlist-delete .dialog-frame .cancel,
+#dialog-playlist-delete .dialog-frame .submit,
+#dialog-playlist-create .dialog-frame .cancel,
+#dialog-playlist-create .dialog-frame .submit,
+#dialog-delete .dialog-frame .cancel,
+#dialog-delete .dialog-frame .submit
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#dialog-media-update .dialog-frame .cancel:hover,
+#dialog-playlist-rename .dialog-frame .cancel:hover,
+#dialog-playlist-delete .dialog-frame .cancel:hover,
+#dialog-playlist-create .dialog-frame .cancel:hover,
+#dialog-delete .dialog-frame .cancel:hover
+{
+        color:                  rgba(255, 255, 255, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+}
+
+#dialog-media-update .dialog-frame .submit:hover,
+#dialog-playlist-rename .dialog-frame .submit:hover,
+#dialog-playlist-delete .dialog-frame .submit:hover,
+#dialog-playlist-create .dialog-frame .submit:hover,
+#dialog-delete .dialog-frame .submit:hover
+{
+        color:                  rgba(255, 255, 255, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+}
+
+/* Editing Media Swap Button Hover */
+#dialog-media-update .swap
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#dialog-media-update .swap:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+}
+
+/* User-Rollover User Role [Promotion], User Ban, & User Mute, & Gifting Dialog */
+#dialog-user-role .dialog-frame,
+#dialog-ban-user .dialog-frame,
+#dialog-mute-user .dialog-frame,
+#dialog-gift-send .dialog-frame
+{
+        background:             rgb(3, 0, 7) !important;
+}
+
+#dialog-user-role,
+#dialog-ban-user,
+#dialog-mute-user,
+#dialog-gift-send
+{
+        opacity: 1;
+}
+
+#dialog-user-role .role-menu
+{
+        background:             rgba(128, 134, 145, 0) !important;
+}
+
+#dialog-user-role .role-menu .menu li:nth-child(n+1),
+#dialog-ban-user .dialog-body .duration .toggle,
+#dialog-ban-user .dialog-body .duration .toggle.day,
+#dialog-ban-user .dialog-body .duration .toggle.forever,
+#dialog-ban-user .dialog-body ul li:nth-child(n+1),
+#dialog-ban-user .dialog-body li .radio,
+#dialog-mute-user .dialog-body .duration .toggle.short,
+#dialog-mute-user .dialog-body .duration .toggle.medium,
+#dialog-mute-user .dialog-body .duration .toggle.long,
+#dialog-mute-user .dialog-body ul li:nth-child(n+1),
+#dialog-mute-user .dialog-body li .radio
+{
+        opacity:                1;
+
+        -webkit-transition:     all 0.2s linear;
+        -moz-transition:        all 0.2s linear;
+        -o-transition:          all 0.2s linear;
+        transition:             all 0.2s linear;
+}
+
+#dialog-user-role .role-menu .menu :hover > li:nth-child(n+1)
+{
+        opacity:                0.65;
+}
+
+#dialog-ban-user .dialog-body .duration:hover > .toggle,
+#dialog-ban-user .dialog-body .duration:hover > .toggle.day,
+#dialog-ban-user .dialog-body .duration:hover > .toggle.forever,
+#dialog-ban-user .dialog-body ul:hover > li:nth-child(n+1),
+#dialog-ban-user .dialog-body li .radio,
+#dialog-mute-user .dialog-body .duration:hover > .toggle.short,
+#dialog-mute-user .dialog-body .duration:hover > .toggle.medium,
+#dialog-mute-user .dialog-body .duration:hover > .toggle.long,
+#dialog-mute-user .dialog-body ul:hover > li:nth-child(n+1),
+#dialog-mute-user .dialog-body li .radio
+{
+        opacity:                0.3;
+}
+
+#dialog-user-role .role-menu .menu li:nth-child(n+1):hover,
+#dialog-ban-user .dialog-body .duration .toggle:hover,
+#dialog-ban-user .dialog-body .duration .toggle.day:hover,
+#dialog-ban-user .dialog-body .duration .toggle.forever:hover,
+#dialog-ban-user .dialog-body ul li:nth-child(n+1):hover,
+#dialog-ban-user .dialog-body li .radio:hover,
+#dialog-mute-user .dialog-body .duration .toggle.short:hover,
+#dialog-mute-user .dialog-body .duration .toggle.medium:hover,
+#dialog-mute-user .dialog-body .duration .toggle.long:hover,
+#dialog-mute-user .dialog-body ul li:nth-child(n+1):hover,
+#dialog-mute-user .dialog-body li .radio:hover
+{
+        opacity:                1;
+}
+
+#dialog-user-role .dialog-frame .button.cancel,
+#dialog-user-role .dialog-frame .button.submit,
+#dialog-ban-user .dialog-frame .button.cancel,
+#dialog-ban-user .dialog-frame .button.submit,
+#dialog-mute-user .dialog-frame .button.submit,
+#dialog-mute-user .dialog-frame .button.cancel,
+#dialog-gift-send .dialog-frame .button.submit,
+#dialog-gift-send .dialog-frame .button.cancel
+{
+        background:             rgba(0, 0, 0, 1) !important;
+
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#dialog-user-role .dialog-frame:hover > .button.cancel,
+#dialog-user-role .dialog-frame:hover > .button.submit,
+#dialog-ban-user .dialog-frame:hover > .button.cancel,
+#dialog-ban-user .dialog-frame:hover > .button.submit,
+#dialog-mute-user .dialog-frame:hover > .button.cancel,
+#dialog-mute-user .dialog-frame:hover > .button.submit,
+#dialog-gift-send .dialog-frame:hover > .button.submit,
+#dialog-gift-send .dialog-frame:hover > .button.cancel
+{
+        opacity:                0.4;
+}
+
+#dialog-user-role .dialog-frame .button.cancel:hover,
+#dialog-user-role .dialog-frame .button.submit:hover,
+#dialog-ban-user .dialog-frame .button.cancel:hover,
+#dialog-ban-user .dialog-frame .button.submit:hover,
+#dialog-mute-user .dialog-frame .button.cancel:hover,
+#dialog-mute-user .dialog-frame .button.submit:hover,
+#dialog-gift-send .dialog-frame .button.submit:hover,
+#dialog-gift-send .dialog-frame .button.cancel:hover
+{
+        opacity:                1;
+}
+
+#dialog-user-role .dialog-frame .button.submit:hover,
+#dialog-ban-user .dialog-frame .button.submit:hover,
+#dialog-mute-user .dialog-frame .button.submit:hover,
+#dialog-gift-send .dialog-frame .button.submit:hover
+{
+        -webkit-box-shadow:     inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        -moz-box-shadow:        inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        -o-box-shadow:          inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        box-shadow:             inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+}
+
+#dialog-user-role .dialog-frame .button.cancel:hover,
+#dialog-ban-user .dialog-frame .button.cancel:hover,
+#dialog-mute-user .dialog-frame .button.cancel:hover,
+#dialog-gift-send .dialog-frame .button.cancel:hover
+{
+        -webkit-box-shadow:     inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;  
+}

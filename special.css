@@ -138,7 +138,7 @@ display:none !important;
 }
 
 
-/* ORIGIN RELATED CSS */
+/* ORIGIN RELATED CSS 
 [data-cid^="4249648-"] .msg .from .icon-chat-subscriber, #user-lists .list.room .id-4249648 .icon-chat-subscriber,
 [data-cid^="6-"] .msg .from .icon-chat-subscriber, #user-lists .list.room .id-6 .icon-chat-subscriber {
     background: url("https://cdn.radiant.dj/rcs/icons/radiant/origin_subscriber.png") !important;
@@ -166,10 +166,10 @@ display:none !important;
 [data-cid^="4249648-"] .msg .from .icon-chat-ambassador, #user-lists .list.room .id-4249648 .icon-chat-ambassador,
 [data-cid^="6-"] .msg .from .icon-chat-ambassador, #user-lists .list.room .id-6 .icon-chat-ambassador {
     background: url("https://cdn.radiant.dj/rcs/icons/radiant/origin_ambassador.png") !important;
-}
+} */
 #user-rollover.id-4249648 .username,
 #user-rollover.id-6 .username {
-    color: #c59840 !important;
+    color: #42a5dc !important;
 }
 #chat .msg .text .id-4249648,
 #chat .msg .text .name.id-4249648,
@@ -177,5 +177,5 @@ display:none !important;
 #chat .msg .text .id-6,
 #chat .msg .text .name.id-6,
 #chat .msg .text .name.id-6 .name {
-    color: #c59840 !important;
+    color: #42a5dc !important;
 }

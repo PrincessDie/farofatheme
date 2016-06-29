@@ -181,8 +181,7 @@ element.style {
 }
 .icon-chat-admin {
     background-position: 0 -350px;
-    background-position-x: 0px;
-    background-position-y: -350px;
+
 }
 .icon-arrow-down-blue, .icon-chat-admin, .icon-chat-bouncer, .icon-chat-cohost, .icon-chat-dj, .icon-chat-host, .icon-chat-manager, .icon-chat-silver-subscriber, .icon-chat-subscriber, .icon-check-blue, .icon-history-grabs, .icon-history-listeners, .icon-history-negative, .icon-menu-arrow, .icon-room-history-row, .icon-soundcloud-favorites, .icon-soundcloud-sets, .icon-soundcloud-tracks, .icon-time {
     width: 15px;
@@ -192,16 +191,7 @@ element.style {
     width: 30px;
     height: 30px;
     background: url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a25fd4a1f0aaba5a4cd.png');
-    background-image: url("https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a25fd4a1f0aaba5a4cd.png");
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
+
 }
 .arrow-down, .avi, .icon, .spinner, .thumb.large, .thumb.medium, .thumb.small {
     position: absolute;

@@ -169,6 +169,20 @@ display:none !important;
 } 
 #chat-messages .from.ambassador .icon.icon-chat-silver-subscriber, #chat-messages .from.ambassador .icon.icon-chat-subscriber, #chat-messages .from.ambassador.has-staff .icon.icon-chat-ambassador, #chat-messages .from.dj .icon.icon-chat-silver-subscriber, #chat-messages .from.dj .icon.icon-chat-subscriber, #chat-messages .from.staff .icon.icon-chat-silver-subscriber, #chat-messages .from.staff .icon.icon-chat-subscriber {
     margin-right: 1px;
+    
+#user-rollover .info .role i {
+    position: relative;
+    float: left;
+    margin-top: 2px;
+}
+.icon-chat-admin {
+    background-position: 0 -350px;
+}
+.icon-arrow-down-blue, .icon-chat-admin, .icon-chat-bouncer, .icon-chat-cohost, .icon-chat-dj, .icon-chat-host, .icon-chat-manager, .icon-chat-silver-subscriber, .icon-chat-subscriber, .icon-check-blue, .icon-history-grabs, .icon-history-listeners, .icon-history-negative, .icon-menu-arrow, .icon-room-history-row, .icon-soundcloud-favorites, .icon-soundcloud-sets, .icon-soundcloud-tracks, .icon-time {
+    width: 15px;
+    height: 15px;
+}
+    
 }
 
 */

@@ -101,3 +101,16 @@
     border-radius: 0;
     
 }
+
+#chat-messages .fromID-3925828 .badge-box i,
+#chat-messages  .id-3925828 .badge-box i {
+    background-image: url(https://66.media.tumblr.com/585cc60d859c8d7153b97ef715a3c1f8/tumblr_o8xqh6nj321r608gvo1_400.gif);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+    
+}
